@@ -1,6 +1,6 @@
 // @SOURCE:/auto_home/pboussier/Desktop/play/Todolist/conf/routes
-// @HASH:84dd2ab3dc91729e8e6be8f77348d7ca41059a64
-// @DATE:Mon Nov 04 08:48:23 CET 2013
+// @HASH:183e60587d75af97e4cbf457fe6eba658991a4fe
+// @DATE:Mon Nov 04 09:21:51 CET 2013
 
 
 import play.core._
@@ -39,7 +39,11 @@ private[this] lazy val controllers_Application_tasks1 = Route("GET", PathPattern
 // @LINE:10
 private[this] lazy val controllers_Application_newTask2 = Route("POST", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("tasks"))))
         
-def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """tasks""","""controllers.Application.tasks()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """tasks""","""controllers.Application.newTask()""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
+
+// @LINE:12
+private[this] lazy val controllers_Application_listtask3 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("extern"))))
+        
+def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """tasks""","""controllers.Application.tasks()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """tasks""","""controllers.Application.newTask()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """extern""","""controllers.Application.listtask()""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
   case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
   case l => s ++ l.asInstanceOf[List[(String,String,String)]] 
 }}
@@ -67,6 +71,14 @@ case controllers_Application_tasks1(params) => {
 case controllers_Application_newTask2(params) => {
    call { 
         invokeHandler(controllers.Application.newTask(), HandlerDef(this, "controllers.Application", "newTask", Nil,"POST", """""", Routes.prefix + """tasks"""))
+   }
+}
+        
+
+// @LINE:12
+case controllers_Application_listtask3(params) => {
+   call { 
+        invokeHandler(controllers.Application.listtask(), HandlerDef(this, "controllers.Application", "listtask", Nil,"GET", """""", Routes.prefix + """extern"""))
    }
 }
         

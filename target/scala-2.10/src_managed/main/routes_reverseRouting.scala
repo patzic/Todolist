@@ -1,6 +1,6 @@
 // @SOURCE:/auto_home/pboussier/Desktop/play/Todolist/conf/routes
-// @HASH:84dd2ab3dc91729e8e6be8f77348d7ca41059a64
-// @DATE:Mon Nov 04 08:48:23 CET 2013
+// @HASH:183e60587d75af97e4cbf457fe6eba658991a4fe
+// @DATE:Mon Nov 04 09:21:51 CET 2013
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -13,11 +13,13 @@ import play.libs.F
 import Router.queryString
 
 
+// @LINE:12
 // @LINE:10
 // @LINE:9
 // @LINE:6
 package controllers {
 
+// @LINE:12
 // @LINE:10
 // @LINE:9
 // @LINE:6
@@ -41,6 +43,12 @@ def newTask(): Call = {
    Call("POST", _prefix + { _defaultPrefix } + "tasks")
 }
                                                 
+
+// @LINE:12
+def listtask(): Call = {
+   Call("GET", _prefix + { _defaultPrefix } + "extern")
+}
+                                                
     
 }
                           
@@ -48,11 +56,13 @@ def newTask(): Call = {
                   
 
 
+// @LINE:12
 // @LINE:10
 // @LINE:9
 // @LINE:6
 package controllers.javascript {
 
+// @LINE:12
 // @LINE:10
 // @LINE:9
 // @LINE:6
@@ -91,6 +101,17 @@ def newTask : JavascriptReverseRoute = JavascriptReverseRoute(
    """
 )
                         
+
+// @LINE:12
+def listtask : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Application.listtask",
+   """
+      function() {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "extern"})
+      }
+   """
+)
+                        
     
 }
               
@@ -98,11 +119,13 @@ def newTask : JavascriptReverseRoute = JavascriptReverseRoute(
         
 
 
+// @LINE:12
 // @LINE:10
 // @LINE:9
 // @LINE:6
 package controllers.ref {
 
+// @LINE:12
 // @LINE:10
 // @LINE:9
 // @LINE:6
@@ -124,6 +147,12 @@ def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 // @LINE:10
 def newTask(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Application.newTask(), HandlerDef(this, "controllers.Application", "newTask", Seq(), "POST", """""", _prefix + """tasks""")
+)
+                      
+
+// @LINE:12
+def listtask(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Application.listtask(), HandlerDef(this, "controllers.Application", "listtask", Seq(), "GET", """""", _prefix + """extern""")
 )
                       
     
