@@ -1,0 +1,491 @@
+2013-11-04 08:43:05,591 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2013-11-04 08:43:55,779 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:db/database
+
+2013-11-04 08:43:56,224 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-04 08:48:27,356 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6g6j1ejf4 - Internal server error, for (GET) [/] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error[value Assets is not a member of object controllers.routes]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:332) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:332) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:330) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
+	at sbt.PlayReloader$$anon$1.reload(PlayReloader.scala:330) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:106) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_09]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_09]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_09]
+
+2013-11-04 08:49:30,394 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6g6j1i8ln - Internal server error, for (GET) [/tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error[value Assets is not a member of object controllers.routes]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:332) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:332) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:330) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
+	at sbt.PlayReloader$$anon$1.reload(PlayReloader.scala:330) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:106) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_09]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_09]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_09]
+
+2013-11-04 08:49:44,512 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:db/database
+
+2013-11-04 08:49:44,619 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-04 08:50:56,668 - [INFO] - from play in play-internal-execution-context-2 
+database [default] connected at jdbc:h2:db/database
+
+2013-11-04 08:50:56,762 - [INFO] - from play in play-internal-execution-context-2 
+Application started (Dev)
+
+2013-11-04 08:51:18,141 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:db/database
+
+2013-11-04 08:51:18,214 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-04 08:54:18,552 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6g6j28j2n - Internal server error, for (GET) [/tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error[cannot find symbol [symbol: class id] [location: class models.Task]]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:332) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:332) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:330) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
+	at sbt.PlayReloader$$anon$1.reload(PlayReloader.scala:330) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:106) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_09]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_09]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_09]
+
+2013-11-04 08:54:30,114 - [INFO] - from play in play-internal-execution-context-2 
+database [default] connected at jdbc:h2:db/database
+
+2013-11-04 08:54:30,304 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6g6j29acp - Internal server error, for (GET) [/tasks] ->
+
+play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1$$anonfun$apply$1.apply$mcV$sp(Evolutions.scala:462) ~[play-jdbc_2.10.jar:2.1.4]
+	at play.api.db.evolutions.EvolutionsPlugin.withLock(Evolutions.scala:483) ~[play-jdbc_2.10.jar:2.1.4]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1.apply(Evolutions.scala:439) ~[play-jdbc_2.10.jar:2.1.4]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1.apply(Evolutions.scala:437) ~[play-jdbc_2.10.jar:2.1.4]
+	at scala.collection.immutable.List.foreach(List.scala:309) ~[scala-library.jar:na]
+	at play.api.db.evolutions.EvolutionsPlugin.onStart(Evolutions.scala:437) ~[play-jdbc_2.10.jar:2.1.4]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:85) ~[play_2.10.jar:2.1.4]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:85) ~[play_2.10.jar:2.1.4]
+	at scala.collection.immutable.List.foreach(List.scala:309) ~[scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:85) ~[play_2.10.jar:2.1.4]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:85) ~[play_2.10.jar:2.1.4]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:85) ~[play_2.10.jar:2.1.4]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.1.4]
+	at play.api.Play$.start(Play.scala:84) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:141) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:114) ~[play_2.10.jar:2.1.4]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:114) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.1.4]
+	at scala.util.Either$RightProjection.flatMap(Either.scala:523) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_09]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_09]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_09]
+
+2013-11-04 08:54:32,364 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:db/database
+
+2013-11-04 08:54:32,446 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-04 08:55:55,061 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6g6j2e5ml - Internal server error, for (GET) [/tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error[value deleteTask is not a member of controllers.ReverseApplication]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:332) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:332) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:330) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
+	at sbt.PlayReloader$$anon$1.reload(PlayReloader.scala:330) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:106) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_09]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_09]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_09]
+
+2013-11-04 08:56:35,956 - [INFO] - from play in play-internal-execution-context-2 
+database [default] connected at jdbc:h2:db/database
+
+2013-11-04 08:56:36,047 - [INFO] - from play in play-internal-execution-context-2 
+Application started (Dev)
+
+2013-11-04 08:57:35,913 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6g6j2jp1h - Internal server error, for (GET) [/tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error[cannot find symbol [symbol: variable Task] [location: class controllers.Application]]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:332) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:332) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:330) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
+	at sbt.PlayReloader$$anon$1.reload(PlayReloader.scala:330) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:106) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_09]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_09]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_09]
+
+2013-11-04 08:57:59,348 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6g6j2l7j0 - Internal server error, for (GET) [/tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error[cannot find symbol [symbol: variable Task] [location: class controllers.Application]]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:332) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:332) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:330) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
+	at sbt.PlayReloader$$anon$1.reload(PlayReloader.scala:330) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:106) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_09]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_09]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_09]
+
+2013-11-04 08:58:22,263 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6g6j2mfg9 - Internal server error, for (GET) [/tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error[cannot find symbol [symbol: variable taskForm] [location: class controllers.Application]]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:332) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:332) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:330) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
+	at sbt.PlayReloader$$anon$1.reload(PlayReloader.scala:330) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:106) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_09]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_09]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_09]
+
+2013-11-04 08:58:50,007 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6g6j2o4hc - Internal server error, for (GET) [/tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error[cannot find symbol [symbol: variable taskForm] [location: class controllers.Application]]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:332) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:332) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:330) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
+	at sbt.PlayReloader$$anon$1.reload(PlayReloader.scala:330) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:106) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_09]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_09]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_09]
+
+2013-11-04 09:00:46,345 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6g6j34kk0 - Internal server error, for (GET) [/tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error[cannot find symbol [symbol: class Form] [location: class controllers.Application]]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:332) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:332) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:330) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
+	at sbt.PlayReloader$$anon$1.reload(PlayReloader.scala:330) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:106) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_09]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_09]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_09]
+
+2013-11-04 09:01:00,782 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6g6j35g37 - Internal server error, for (GET) [/tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error[modifier static not allowed here]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:332) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:332) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:330) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
+	at sbt.PlayReloader$$anon$1.reload(PlayReloader.scala:330) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:106) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_09]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_09]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_09]
+
+2013-11-04 09:01:38,762 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:db/database
+
+2013-11-04 09:01:38,852 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-04 09:02:47,002 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6g6j3bh6h - Internal server error, for (GET) [/tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error[class, interface, or enum expected]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:332) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:332) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:330) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
+	at sbt.PlayReloader$$anon$1.reload(PlayReloader.scala:330) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:106) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_09]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_09]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_09]
+
+2013-11-04 09:04:34,344 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6g6j3hk14 - Internal server error, for (GET) [/tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error[class, interface, or enum expected]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:332) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:332) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:330) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
+	at sbt.PlayReloader$$anon$1.reload(PlayReloader.scala:330) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:106) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_09]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_09]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_09]
+
+2013-11-04 09:04:57,419 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6g6j3j24h - Internal server error, for (GET) [/tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error[class, interface, or enum expected]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:332) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:332) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:330) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
+	at sbt.PlayReloader$$anon$1.reload(PlayReloader.scala:330) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:106) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_09]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_09]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_09]
+
+2013-11-04 09:05:09,739 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6g6j3jkad - Internal server error, for (GET) [/tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error[cannot find symbol [symbol: variable taskForm] [location: class controllers.Application]]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:332) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:332) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:330) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
+	at sbt.PlayReloader$$anon$1.reload(PlayReloader.scala:330) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:106) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_09]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_09]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_09]
+
+2013-11-04 09:06:18,383 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6g6j3nhoh - Internal server error, for (GET) [/tasks] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error[non-static variable taskForm cannot be referenced from a static context]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:335) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:335) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:332) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:332) ~[na:na]
+	at sbt.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:330) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
+	at sbt.PlayReloader$$anon$1.reload(PlayReloader.scala:330) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:106) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_09]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_09]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_09]
+
+2013-11-04 09:06:45,664 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:db/database
+
+2013-11-04 09:06:45,749 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-04 09:08:34,291 - [INFO] - from play in play-internal-execution-context-2 
+database [default] connected at jdbc:h2:db/database
+
+2013-11-04 09:08:34,393 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6g6j45b3n - Internal server error, for (GET) [/tasks] ->
+
+play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1$$anonfun$apply$1.apply$mcV$sp(Evolutions.scala:462) ~[play-jdbc_2.10.jar:2.1.4]
+	at play.api.db.evolutions.EvolutionsPlugin.withLock(Evolutions.scala:483) ~[play-jdbc_2.10.jar:2.1.4]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1.apply(Evolutions.scala:439) ~[play-jdbc_2.10.jar:2.1.4]
+	at play.api.db.evolutions.EvolutionsPlugin$$anonfun$onStart$1.apply(Evolutions.scala:437) ~[play-jdbc_2.10.jar:2.1.4]
+	at scala.collection.immutable.List.foreach(List.scala:309) ~[scala-library.jar:na]
+	at play.api.db.evolutions.EvolutionsPlugin.onStart(Evolutions.scala:437) ~[play-jdbc_2.10.jar:2.1.4]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:85) ~[play_2.10.jar:2.1.4]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:85) ~[play_2.10.jar:2.1.4]
+	at scala.collection.immutable.List.foreach(List.scala:309) ~[scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:85) ~[play_2.10.jar:2.1.4]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:85) ~[play_2.10.jar:2.1.4]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:85) ~[play_2.10.jar:2.1.4]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) ~[play_2.10.jar:2.1.4]
+	at play.api.Play$.start(Play.scala:84) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:141) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1$$anonfun$1.apply(ApplicationProvider.scala:114) ~[play_2.10.jar:2.1.4]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:114) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1$$anonfun$apply$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.1.4]
+	at scala.util.Either$RightProjection.flatMap(Either.scala:523) ~[scala-library.jar:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:112) ~[play_2.10.jar:2.1.4]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.4]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_09]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_09]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_09]
+
+2013-11-04 09:08:36,201 - [INFO] - from play in play-internal-execution-context-2 
+database [default] connected at jdbc:h2:db/database
+
+2013-11-04 09:08:36,261 - [INFO] - from play in play-internal-execution-context-2 
+Application started (Dev)
+

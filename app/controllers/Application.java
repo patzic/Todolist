@@ -1,14 +1,42 @@
 package controllers;
-
+import play.data.Form;
 import play.*;
 import play.mvc.*;
-
+import models.Task;
 import views.html.*;
+import java.util.*;
+import play.data.validation.Constraints.*;
 
 public class Application extends Controller {
+    static Form<Task> taskForm = Form.form(Task.class);
+
+
+ public static Result index() {
+    return redirect(routes.Application.tasks());
+  }
   
-    public static Result index() {
-        return ok(index.render("Your new application is ready."));
+public static Result listtask()
+        {    	
+    		return ok(Json.toJson(Task.all()));
+    	
+    	
+
     }
+  public static Result tasks() {
+
+    return ok(views.html.index.render(Task.all(), taskForm));
+  }
   
+  public static Result newTask() {
+	Form<Task> filledForm = taskForm.bindFromRequest();
+  	if(filledForm.hasErrors()) {
+   	return badRequest(views.html.index.render(Task.all(), filledForm)  );
+ 	} else {
+    	Task.create(filledForm.get());
+    	return redirect(routes.Application.tasks());  
+  	}
+}
+  
+  
+
 }
